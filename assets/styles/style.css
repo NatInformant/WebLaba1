@@ -20,7 +20,7 @@ body {
 }
 
 .text-section__header {
-    font-family: PlayfairDisplay;
+    font-family: PlayfairDisplay, sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 80px;
@@ -28,7 +28,7 @@ body {
 }
 
 .text-section__paragraph {
-    font-family: PlayfairDisplay;
+    font-family: PlayfairDisplay, sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #363031;
@@ -38,7 +38,7 @@ body {
 }
 
 .text-section__button {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 23px;
     line-height: 18px;
@@ -53,14 +53,16 @@ body {
 
 .image-section {
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 592px;
+    height: 592px;
 
     display: flex;
     flex-direction: column;
 }
 
 .image-section__large-coffee-image {
+    width: 440px;
+    height: 440px;
     align-self: flex-start;
 }
 
@@ -99,7 +101,7 @@ body {
 
 
 .statistics-list-item__number {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 31px;
     text-align: center;
@@ -109,7 +111,7 @@ body {
 }
 
 .statistics-list-item__number-description {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #363031;
@@ -132,7 +134,7 @@ body {
 }
 
 .coffee-list-item__image-description {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 300;
     font-size: 16px;
 
