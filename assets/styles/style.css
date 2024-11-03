@@ -1,57 +1,3 @@
-/*span{
-    color:brown;
-}
-.sayHiBlock{
-    position: absolute;
-    background-color: tomato;
-}
-
-.button{
-    width: 200px;
-    background:tomato;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-
-.button::after{
-    content:'5';
-    background-color: blue;
-    right: -5px;
-    top: -4px;
-}
-.button::before {
-    content:'5';
-    background-color: blue;
-}*/
-
-@font-face {
-    font-family: 'Poppins';
-    src: local("../fonts/Poppins-Regular.ttf");
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Poppins';
-    src: local("../fonts/Poppins-SemiBold.ttf");
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Poppins';
-    src: local("../fonts/Poppins-Light.ttf");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: local("../fonts/PlayfairDisplay-Bold.ttf");
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: local("../fonts/PlayfairDisplay-Regular.ttf");
-    font-weight: 400;
-}
-
 body {
     color: white;
 }
@@ -85,6 +31,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #363031;
+
     margin-right: 104px;
 }
 
@@ -93,11 +40,11 @@ body {
     font-weight: 400;
     font-size: 19px;
     letter-spacing: 1px;
+    color: white;
 
     margin-top: 32px;
     padding: 20px 44px;
     background-color: #A36A4F;
-    color:  white;
     border-radius: 36px;
 }
 
@@ -105,6 +52,7 @@ body {
     position: relative;
     width: 600px;
     height: 600px;
+
     display: flex;
     flex-direction: column;
 }
@@ -125,48 +73,55 @@ body {
     right: 0;
     margin-inline: auto;
     width: fit-content;
-    display: flex;
-    justify-content: space-around;
-    background-color: #ECDAC4;
     padding: 24px 96px 24px 96px;
     margin-top: 50px;
     border-radius: 80px;
     gap: 88px;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #ECDAC4;
 }
+
 .statistics-list-item {
     width: 150px;
     display: flex;
     flex-direction: column;
 }
+
 .statistics-list-item__coffee-icon {
     width: 36px;
     height: 36px;
     align-self: center;
 }
+
 .statistics-list-item__number {
     font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 31px;
     text-align: center;
     color: #363031;
+
     margin-top: 8px;
 }
 
 .statistics-list-item__number-description {
     font-family: Poppins, sans-serif;
     font-weight: normal;
-    margin-top: 10px;
     font-size: 16px;
     color: #363031;
     text-align: center;
+
+    margin-top: 10px;
 }
 
 .coffee-list {
     margin-top: 144px;
+    padding: 138px 64px 20px 64px;
     display: flex;
     justify-content: space-around;
+
     background-color: #363032;
-    padding: 138px 64px 20px 64px;
 }
 
 .coffee-list-item {
@@ -177,6 +132,7 @@ body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
     font-size: 16px;
+
     margin-top: 18px;
     color: white;
 }

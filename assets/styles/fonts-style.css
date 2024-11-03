@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local("../fonts/Poppins-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local("../fonts/Poppins-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local("../fonts/Poppins-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: local("../fonts/PlayfairDisplay-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: local("../fonts/PlayfairDisplay-Regular.ttf");
+    font-weight: 400;
+}
