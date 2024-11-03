@@ -1,49 +1,52 @@
 body {
     color: white;
+    width: 1440px;
+    height: 1345px;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 64px;
     padding-left: 120px;
     padding-right: 118px;
 }
 
 .text-section {
-    max-width: 464px;
-    padding-top: 100px;
+    max-width: 500px;
+    padding-top: 92px;
     align-items: flex-start;
 }
 
 .text-section__header {
-    font-family: PlayfairDisplay sans-serif;
-    font-size: 63px;
+    font-family: PlayfairDisplay;
+    font-size: 64px;
     font-weight: 700;
-    line-height: 72px;
+    line-height: 80px;
     color: #363031;
 }
 
 .text-section__paragraph {
-    font-family: PlayfairDisplay sans-serif;
-    margin-top: 30px;
+    font-family: PlayfairDisplay;
     font-weight: 400;
     font-size: 24px;
     color: #363031;
 
+    margin-top: 32px;
     margin-right: 104px;
 }
 
 .text-section__button {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 23px;
+    line-height: 18px;
     letter-spacing: 1px;
     color: white;
 
     margin-top: 32px;
-    padding: 20px 44px;
+    padding: 24px 48px;
     background-color: #A36A4F;
     border-radius: 36px;
 }
@@ -67,10 +70,9 @@ body {
     right: 0;
 }
 
-.statistics-list {
+.statistics-list  {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 281px;
     margin-inline: auto;
     width: fit-content;
     padding: 24px 96px 24px 96px;
@@ -84,7 +86,7 @@ body {
 }
 
 .statistics-list-item {
-    width: 150px;
+    width: 170px;
     display: flex;
     flex-direction: column;
 }
@@ -95,31 +97,32 @@ body {
     align-self: center;
 }
 
+
 .statistics-list-item__number {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins;
     font-weight: 600;
     font-size: 31px;
     text-align: center;
     color: #363031;
 
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .statistics-list-item__number-description {
-    font-family: Poppins, sans-serif;
-    font-weight: normal;
+    font-family: Poppins;
+    font-weight: 400;
     font-size: 16px;
     color: #363031;
     text-align: center;
 
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .coffee-list {
-    margin-top: 144px;
-    padding: 138px 64px 20px 64px;
+    margin-top: 154px;
+    padding: 138px 63px 50px 63px;
     display: flex;
-    justify-content: space-around;
+    gap: 96px;
 
     background-color: #363032;
 }
@@ -129,7 +132,7 @@ body {
 }
 
 .coffee-list-item__image-description {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins;
     font-weight: 300;
     font-size: 16px;
 
