@@ -1,7 +1,7 @@
 body {
     color: white;
-    width: 1440px;
-    height: 1345px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero {
@@ -19,7 +19,7 @@ body {
     align-items: flex-start;
 }
 
-.text-section__header {
+.text-header {
     font-family: PlayfairDisplay, sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -27,17 +27,23 @@ body {
     color: #363031;
 }
 
-.text-section__paragraph {
+.text-paragraph-wrapper {
+    padding-top: 32px;
+    padding-right: 104px;
+}
+
+.text-paragraph {
     font-family: PlayfairDisplay, sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #363031;
-
-    margin-top: 32px;
-    margin-right: 104px;
 }
 
-.text-section__button {
+.explore-button-wrapper{
+    padding-top: 32px;
+}
+
+.explore-button {
     font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 23px;
@@ -45,7 +51,6 @@ body {
     letter-spacing: 1px;
     color: white;
 
-    margin-top: 32px;
     padding: 24px 48px;
     background-color: #A36A4F;
     border-radius: 36px;
@@ -72,13 +77,16 @@ body {
     right: 0;
 }
 
-.statistics-list  {
+.statistics-list-wrapper{
     position: absolute;
-    left: 281px;
-    margin-inline: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 50px;
+}
+
+.statistics-list  {
     width: fit-content;
-    padding: 24px 96px 24px 96px;
-    margin-top: 50px;
+    padding: 24px 96px;
     border-radius: 80px;
     gap: 88px;
 
@@ -98,7 +106,6 @@ body {
     height: 36px;
     align-self: center;
 }
-
 
 .statistics-list-item__number {
     font-family: Poppins, sans-serif;
@@ -120,8 +127,11 @@ body {
     margin-top: 6px;
 }
 
+.coffee-list-wrapper {
+    padding-top: 154px;
+}
+
 .coffee-list {
-    margin-top: 154px;
     padding: 138px 63px 50px 63px;
     display: flex;
     gap: 96px;
